@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome to My World</title>
+
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        #maindiv {
+            margin: 50px;
+            padding: 30px;
+            margin-top: 20px;
+            margin-left: 150px;
+            border: 20px solid;
+            padding: 10px;
+            background-color: lightgreen;
+        }
+
+        #title {
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        p {
+            font-size: 22px;
+            font-family: Verdana;
+            padding: 20px;
+        }
+
+
+        .fa {
+            padding: 5px;
+            font-size: 10px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+            /* Add a hover effect if you want */
+            .fa:hover {
+                opacity: 0.7;
+            }
+
+        /* Set a specific color for each brand */
+
+        /* Facebook */
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        /* Twitter */
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!----
+    <ul>
+        <li>SQL SERVER</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>ASP.NET</li>
+    </ul>
+    <!-- ordered List-->
+   <!---
+        <ol>
+        <li>
+            SQL SERVER
+            <ul>
+                <li>2018</li>
+                <li>2019</li>
+                <li>2020</li>
+                <li>2021</li>
+            </ul>
+
+        </li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>ASP.NET</li>
+    </ol>
+       ---->
+
+    <div id="maindiv">
+
+        <h1 id="title">Panchatantra Stories</h1>
+
+        <p id=" pg">
+            It was the great scholar, Vishnu Sharma who wrote the Panchatantra tales long time ago.
+            He wrote it to teach 4 princes the ways of life.
+
+        <p>There is something to learn from every Panchatantra story. However, not every Panchatantra story is suitable for kids.</p>
+        <p>
+            KathaKids has selected the most suitable stories and
+            presented it in a modern language that today’s kids can relate to. Read these stories to your kids and learn something new from every Panchatantra story!
+        </p>
+        <br><h>More Stories Click Below..</h><br>
+        <br />
+
+
+
+        <a href="https://kathakids.com/folktales/panchatantra-stories/the-lion-and-the-hare/" target="_blank">The Lion And The Hare</a>
+        <br><a href="https://kathakids.com/folktales/panchatantra-stories/the-three-promises/" target="_blank">The Three Promises</a><br>
+        <a href="https://kathakids.com/folktales/panchatantra-stories/a-daring-plan/" target="_blank">A Daring Plan</a>
+
+
+        <form>
+            <h2>For More Stories Register... </h2>
+            Name:<br><input type="text" value="Please Enter your Name"><br>
+            surname:<br><input type="text" value="Please Enter your Surname"><br><br>
+            <input type="submit" value="Click me">
+        </form>
+
+        <br><div> Follow us on..</div><br>
+        <!-- Add font awesome icons -->
+        <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://twitter.com/login" class="fa fa-twitter" target="_blank"></a>
+
+
+        <br><span>Thank You For Registeration!!!</span>
+
+    </div>
+    <script>
+        ///1.Element or Tag, Selectors
+        $(document).ready(function () {
+            $('h2').css('color', "crimson")
+            $('input[type="text"]').focus(function () {
+                $('p').css('background-color', 'orange');
+            });
+
+        });
+
+        //jquerry effects
+
+        $(document).ready(function () {
+
+            $('#title').hide("2000")
+            $('#pg').css('color,"red");
+            });
+
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>/
